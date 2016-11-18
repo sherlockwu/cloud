@@ -1,0 +1,8 @@
+# generate the public module
+python -m grpc.tools.protoc -I./ --python_out=. --grpc_python_out=. ./filetransfer.proto
+or `python run_codegen.py`
+
+# run server filetransfer_server.py
+
+# run server filetransfer_client.py
+
